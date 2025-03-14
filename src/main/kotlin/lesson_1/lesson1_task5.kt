@@ -2,12 +2,15 @@ package org.example.lesson_1
 
 fun main() {
 
-    val totalSeconds = 6480
-    val hours = totalSeconds / 3600
-    val remainigSecondsAfterHours = totalSeconds % 3600
-    val minutes = remainigSecondsAfterHours / 60
-    val seconds = remainigSecondsAfterHours % 60
+    val SECONDS_IN_MINUTE = 60
+    val SECONDS_IN_HOUR = 3600
 
-    println("Время, проведенное в космосе: ${String.format("%02d", hours)}:${String.format("%02d", minutes)}:${String.format("%02d", seconds)}")
+    val totalSeconds = 6480
+    val hours = totalSeconds / SECONDS_IN_HOUR
+    val remainigSecondsAfterHours = totalSeconds % SECONDS_IN_HOUR
+    val minutes = remainigSecondsAfterHours / SECONDS_IN_MINUTE
+    val seconds = remainigSecondsAfterHours % SECONDS_IN_MINUTE
+
+    println("%02d:%02d:%02d".format(hours, minutes, seconds))
 
 }
