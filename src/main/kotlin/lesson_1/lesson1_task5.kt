@@ -7,7 +7,7 @@ fun main() {
 
     val totalSeconds = 6480
     val hours = totalSeconds / SECONDS_IN_HOUR
-    val remainigSecondsAfterHours = totalSeconds % SECONDS_IN_HOUR
+    val remainigSecondsAfterHours = totalSeconds %  SECONDS_IN_HOUR
     val minutes = remainigSecondsAfterHours / SECONDS_IN_MINUTE
     val seconds = remainigSecondsAfterHours % SECONDS_IN_MINUTE
 
