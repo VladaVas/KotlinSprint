@@ -10,5 +10,5 @@ fun main() {
 
     val finalAmount = initialAmount * (1 + annualInterestRate).pow(years)
 
-    println("Размер вклада через 20 лет: %.3f".format(finalAmount))
+    println("Размер вклада через 20 лет будет: %.3f".format(finalAmount))
 }
