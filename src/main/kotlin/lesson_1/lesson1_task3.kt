@@ -12,11 +12,6 @@ fun main() {
 
     hour = 10
     minute = 55
-    val colon = ":"
-    print(hour)
-    print(colon)
+    print("$hour:")
     print(minute)
-
-
-
 }
