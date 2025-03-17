@@ -2,7 +2,7 @@ package org.example.lesson_2
 
 fun main() {
 
-    val MINUTES_IN_HOUR = 60
+    const val MINUTES_IN_HOUR = 60
 
     val departureHour = 9
     val departureMinute = 39
